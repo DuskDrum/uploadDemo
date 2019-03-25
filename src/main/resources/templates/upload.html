@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<h2>小微商户模拟文件上传</h2>
+<!--<form method="POST" action="http://127.0.0.1:9080/app/uploadFile" enctype="multipart/form-data" style="margin-top: 6%">-->
+<form method="POST" action="/upload" enctype="multipart/form-data" style="margin-top: 6%">
+    <label>上传文件:<input type="file" name="file" /></label><br/><br/>
+    <label>token:<input name="token" /></label><br/><br/>
+    <input type="submit" value="提交" />
+</form>
+</body>
+</html>
